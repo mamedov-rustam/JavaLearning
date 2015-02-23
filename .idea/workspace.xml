@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc4c4e4e-0731-407a-a44f-a2451b935429" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/examples/collection/SetFeature.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/examples/collection/SetRemoveMethod.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Try.iws" />
@@ -68,20 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IntegerWTF.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/code/examples/autoboxing/IntegerWTF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="476">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SetFeature.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SetFeature.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/code/examples/collection/SetFeature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.7042607" vertical-offset="0" max-vertical-offset="918">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
               <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,6 +79,18 @@
                 <element signature="e#282#283#0" expanded="true" />
                 <element signature="e#823#824#0" expanded="true" />
                 <element signature="e#881#882#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetRemoveMethod.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/code/examples/collection/SetRemoveMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+              <caret line="0" column="32" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/code/examples/autoboxing/IntegerWTF.java" />
         <option value="$PROJECT_DIR$/src/code/examples/collection/SetFiture.java" />
         <option value="$PROJECT_DIR$/src/code/examples/collection/SetFeature.java" />
+        <option value="$PROJECT_DIR$/src/code/examples/collection/SetRemoveMethod.java" />
       </list>
     </option>
   </component>
@@ -398,29 +401,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="840" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
-  <component name="RunManager" selected="Application.SetFeature">
-    <configuration default="false" name="Family" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="code.examples.oop.class_extends.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="code.examples.oop.class_extends.Family" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaLearning" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SetRemoveMethod">
     <configuration default="false" name="MainNoise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -495,6 +476,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="code.examples.collection.SetFeature" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaLearning" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SetRemoveMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="code.examples.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="code.examples.collection.SetRemoveMethod" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -663,19 +666,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Family" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MainNoise" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BankTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.IntegerWTF" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SetFeature" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MainNoise" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BankTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IntegerWTF" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SetFeature" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SetRemoveMethod" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SetFeature" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IntegerWTF" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BankTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MainNoise" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Family" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SetRemoveMethod" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SetFeature" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IntegerWTF" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BankTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MainNoise" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -706,7 +709,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424694578088</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="'code.example.collection.SetFeature' added">
+      <created>1424704441726</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1424704441726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -723,7 +732,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19253294" sideWeight="0.6693092" order="0" side_tool="false" content_ui="combo" />
@@ -760,7 +769,8 @@
     </option>
     <MESSAGE value="Bug fixed" />
     <MESSAGE value="'oop added'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'oop added'" />
+    <MESSAGE value="'code.example.collection.SetFeature' added" />
+    <option name="LAST_COMMIT_MESSAGE" value="'code.example.collection.SetFeature' added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1011,7 +1021,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/code/examples/collection/SetFeature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7042607" vertical-offset="0" max-vertical-offset="918">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
           <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1019,6 +1029,16 @@
             <element signature="e#282#283#0" expanded="true" />
             <element signature="e#823#824#0" expanded="true" />
             <element signature="e#881#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/examples/collection/SetRemoveMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
