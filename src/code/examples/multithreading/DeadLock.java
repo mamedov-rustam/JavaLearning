@@ -43,11 +43,11 @@ class MyTask2 implements Runnable{
     @Override
     public void run() {
         try {
-            synchronized (DeadLock.obj1){
+            synchronized (DeadLock.obj2){
                 System.out.println("MyTask2 start sleep");
                 Thread.sleep(500);
                 System.out.println("MyTask2 end sleep");
-                synchronized (DeadLock.obj2){
+                synchronized (DeadLock.obj1){
                     System.out.println("OK for MyTask2");
                 }
             }

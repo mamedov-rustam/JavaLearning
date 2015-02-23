@@ -9,7 +9,7 @@ public class NumberSystem {
         System.out.println(1243134); // Decimal
         System.out.println(0546);    // Octal 0798
 
-        System.out.println(Integer.toHexString(56687)); //Binary
+        System.out.println(Integer.toHexString(56687)); //Hexadecimal
         System.out.println(Integer.toOctalString(56687)); //Octal
         System.out.println(Integer.toBinaryString(56687)); //Binary
 
