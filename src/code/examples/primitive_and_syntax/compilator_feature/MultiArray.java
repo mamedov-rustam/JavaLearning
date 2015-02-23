@@ -3,7 +3,7 @@ package code.examples.primitive_and_syntax.compilator_feature;
 /**
  * Created by Rustam on 23.02.2015.
  */
-public class Test {
+public class MultiArray {
     // Try start it.
     public static void main(String[] args) {
         String[] strArr = new String[10];
