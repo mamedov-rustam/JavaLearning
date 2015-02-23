@@ -1,4 +1,4 @@
-package code.examples.oop.class_extends;
+package code.examples.oop.class_extends.family;
 
 import java.util.ArrayList;
 import java.util.List;

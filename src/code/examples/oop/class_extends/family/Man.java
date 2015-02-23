@@ -1,4 +1,4 @@
-package code.examples.oop.class_extends;
+package code.examples.oop.class_extends.family;
 
 /**
  * Created by Rustam on 23.02.2015.
