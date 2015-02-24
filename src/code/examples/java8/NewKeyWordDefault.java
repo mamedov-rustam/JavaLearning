@@ -3,7 +3,7 @@ package code.examples.java8;
 /**
  * Created by Rustam on 23.02.2015.
  */
-public class NewKeyWord {
+public class NewKeyWordDefault {
     public static void main(String[] args) {
         InterfaceWithDefaultMethod simple = new SimpleImpl();
         simple.sayHello();

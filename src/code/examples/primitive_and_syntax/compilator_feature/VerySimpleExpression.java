@@ -10,6 +10,6 @@ public class VerySimpleExpression {
         // https://www.google.com.ua/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=java+float++assignment
 
 
-        // float flt = 1 + 0.5;
+         // float flt = 1 + 0.5;
     }
 }
