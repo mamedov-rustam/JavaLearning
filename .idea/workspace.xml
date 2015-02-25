@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc4c4e4e-0731-407a-a44f-a2451b935429" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/examples/java8/CollectionForEach.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/examples/java8/CollectionRemoveIf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/examples/java8/LambdaExpression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Rustam.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/code/examples/primitive_and_syntax/compilator_feature/VerySimpleExpression.java" afterPath="$PROJECT_DIR$/src/code/examples/primitive_and_syntax/compilator_feature/VerySimpleExpression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/code/examples/multithreading/SynchronizedCounter.java" afterPath="$PROJECT_DIR$/src/code/examples/multithreading/SynchronizedCounter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Projects\JavaLearning\src\code\examples\java8\NewKeyWord.java" afterPath="$PROJECT_DIR$/src/code/examples/java8/NewKeyWordDefault.java" />
     </list>
     <ignored path="Try.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,11 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LambdaExpression.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LambdaExpression.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/code/examples/java8/LambdaExpression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7925408" vertical-offset="0" max-vertical-offset="714">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
               <caret line="21" column="87" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SynchronizedCounter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/code/examples/multithreading/SynchronizedCounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1981352" vertical-offset="0" max-vertical-offset="1020">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -167,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/code/examples/java8/NewKeyWord.java" />
         <option value="$PROJECT_DIR$/src/code/examples/java8/NewKeyWordDefault.java" />
         <option value="$PROJECT_DIR$/src/code/examples/java8/LambdaExpression.java" />
+        <option value="$PROJECT_DIR$/src/code/examples/multithreading/SynchronizedCounter.java" />
       </list>
     </option>
   </component>
@@ -257,11 +263,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java8" />
+              <option name="myItemId" value="multithreading" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NewKeyWordDefault.java" />
+              <option name="myItemId" value="SynchronizedCounter.java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,7 +289,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java8" />
+              <option name="myItemId" value="multithreading" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,29 +336,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="SearchEverywhereHistoryKey" value="Runnable&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/Runnable.java" />
   </component>
-  <component name="RunManager" selected="Application.LambdaExpression">
-    <configuration default="false" name="IntegerWTF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="code.examples.autoboxing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="code.examples.autoboxing.IntegerWTF" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaLearning" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SynchronizedCounter">
     <configuration default="false" name="NotifyAndNotifyAllDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -427,6 +411,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="code.examples.java8.LambdaExpression" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaLearning" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SynchronizedCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="code.examples.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="code.examples.multithreading.SynchronizedCounter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -595,19 +601,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.IntegerWTF" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NotifyAndNotifyAllDifference" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CollectionForEach" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CollectionRemoveIf" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LambdaExpression" />
+      <item index="0" class="java.lang.String" itemvalue="Application.NotifyAndNotifyAllDifference" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CollectionForEach" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CollectionRemoveIf" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LambdaExpression" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SynchronizedCounter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LambdaExpression" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CollectionRemoveIf" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CollectionForEach" />
-        <item index="3" class="java.lang.String" itemvalue="Application.NotifyAndNotifyAllDifference" />
-        <item index="4" class="java.lang.String" itemvalue="Application.IntegerWTF" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SynchronizedCounter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LambdaExpression" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CollectionRemoveIf" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CollectionForEach" />
+        <item index="4" class="java.lang.String" itemvalue="Application.NotifyAndNotifyAllDifference" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -662,7 +668,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424722861958</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="some java 8 feature added">
+      <created>1424808923098</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1424808923098</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -679,7 +691,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28144655" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28144655" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19253294" sideWeight="0.6693092" order="0" side_tool="false" content_ui="combo" />
@@ -720,7 +732,8 @@
     <MESSAGE value="'code.example.collection.SetFeature' added" />
     <MESSAGE value="'code.example.collection.SetRemove' added" />
     <MESSAGE value="some code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="some code added" />
+    <MESSAGE value="some java 8 feature added" />
+    <option name="LAST_COMMIT_MESSAGE" value="some java 8 feature added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -761,13 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="238">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/examples/multithreading/SynchronizedCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1037">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -1189,8 +1195,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/code/examples/java8/LambdaExpression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7925408" vertical-offset="0" max-vertical-offset="714">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
           <caret line="21" column="87" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/examples/multithreading/SynchronizedCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1981352" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding />
         </state>
       </provider>
