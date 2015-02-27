@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc4c4e4e-0731-407a-a44f-a2451b935429" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/code/examples/oop/AmbiguousProblem.java" afterPath="$PROJECT_DIR$/src/code/examples/oop/AmbiguousProblem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/Test.java" afterPath="$PROJECT_DIR$/src/test/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/examples/oop/NiceNullReference.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Try.iws" />
@@ -69,12 +68,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3550914" vertical-offset="0" max-vertical-offset="383">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NiceNullReference.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/code/examples/oop/NiceNullReference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48825064" vertical-offset="0" max-vertical-offset="408">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/code/examples/oop/OverrideExample.java" />
         <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/code/examples/oop/AmbiguousProblem.java" />
+        <option value="$PROJECT_DIR$/src/code/examples/oop/NiceNullReference.java" />
       </list>
     </option>
   </component>
@@ -314,24 +327,7 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration default="false" name="LoggerUsageExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="code.examples.utill.LoggerUsageExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaLearning" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.NiceNullReference">
     <configuration default="false" name="StringVsStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -406,6 +402,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="code.examples.autoboxing.IntegerWTF" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaLearning" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NiceNullReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="code.examples.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="code.examples.oop.NiceNullReference" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -574,19 +592,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LoggerUsageExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StringVsStringBuilder" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AmbiguousProblem" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IntegerWTF" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StringVsStringBuilder" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AmbiguousProblem" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IntegerWTF" />
+      <item index="4" class="java.lang.String" itemvalue="Application.NiceNullReference" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IntegerWTF" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AmbiguousProblem" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringVsStringBuilder" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LoggerUsageExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NiceNullReference" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IntegerWTF" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AmbiguousProblem" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StringVsStringBuilder" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -677,7 +695,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425042213959</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="mistake fixed">
+      <created>1425042662631</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1425042662631</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -742,7 +766,8 @@
     <MESSAGE value="gitignore added" />
     <MESSAGE value="oop ambiguous problem added" />
     <MESSAGE value="oop override example added" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop override example added" />
+    <MESSAGE value="mistake fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="mistake fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1126,9 +1151,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3550914" vertical-offset="0" max-vertical-offset="383">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/examples/oop/NiceNullReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48825064" vertical-offset="0" max-vertical-offset="408">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
