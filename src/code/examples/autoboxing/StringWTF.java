@@ -6,6 +6,7 @@ package code.examples.autoboxing;
 public class StringWTF {
     // If you want know why exactly we show this output
     // Read about 'String pool'
+    // Or go to link: 'info.javarush.ru' and search for 'Создание объектов типа String в Java'
     public static void main(String[] args) {
         String str1 = "Hello";
         String str2 = "Hello";
