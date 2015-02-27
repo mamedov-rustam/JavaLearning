@@ -8,7 +8,7 @@ import java.util.TreeSet;
  */
 public class FunctionalInterfaceImplWithLambda {
     public static void main(String[] args) {
-        Set<SimpleObject> set = new TreeSet<SimpleObject>((o1, o2) -> o1.getValue()- o2.getValue());
+        Set<SimpleObject> set = new TreeSet<>((o1, o2) -> o1.getValue()- o2.getValue());
 
         set.add(new SimpleObject(3));
         set.add(new SimpleObject(4));
