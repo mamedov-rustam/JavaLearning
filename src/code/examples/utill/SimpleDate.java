@@ -6,7 +6,7 @@ import java.util.Date;
 /**
  * Created by Rustam Mamedov on 26.02.2015.
  */
-public class SimpleData {
+public class SimpleDate {
     private static SimpleDateFormat format1 = new SimpleDateFormat("EEE, MMM d, ''yy");
     private static SimpleDateFormat format2 = new SimpleDateFormat("h:mm a");
     private static SimpleDateFormat format3 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
