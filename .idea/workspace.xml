@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc4c4e4e-0731-407a-a44f-a2451b935429" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\autoboxing\IntegerWTF.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\autoboxing\StringWTF.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\collection\LinkedListVsArrayList.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\exception\CaughtException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\exception\CaughtUncaughtExceptionsAndErrors.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\exception\UncaughtError.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\exception\UncaughtException.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\exception\UncaughtExceptionHandlerExample.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\multithreading\DeadLock.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\multithreading\MyTask1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\multithreading\MyTask2.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\multithreading\NonSyncCountTask.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\multithreading\NotifyAndNotifyAllDifference$MyThread.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\multithreading\NotifyAndNotifyAllDifference.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\multithreading\SyncCountTask.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\multithreading\SynchronizedCounter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\primitive_and_syntax\NumberSystem.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\primitive_and_syntax\PrimitiveCastWTF.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\out\production\JavaLearning\code\examples\primitive_and_syntax\VariablesAndMethodNames.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\JavaLearning\src\test\Test.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Try.iws" />
@@ -68,16 +87,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,10 +125,10 @@
         <option value="$PROJECT_DIR$/.idea/.gitignore" />
         <option value="$PROJECT_DIR$/src/code/examples/multithreading/CallableExample.java" />
         <option value="$PROJECT_DIR$/src/code/examples/oop/OverrideExample.java" />
-        <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/code/examples/oop/AmbiguousProblem.java" />
         <option value="$PROJECT_DIR$/src/code/examples/oop/NiceNullReference.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/Test.java" />
       </list>
     </option>
   </component>
@@ -170,24 +179,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JavaLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -631,7 +622,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425042934853</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=".gitignore settings added">
+      <created>1425043511195</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1425043511195</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -698,7 +695,8 @@
     <MESSAGE value="oop override example added" />
     <MESSAGE value="mistake fixed" />
     <MESSAGE value="operations with null reference added" />
-    <option name="LAST_COMMIT_MESSAGE" value="operations with null reference added" />
+    <MESSAGE value=".gitignore settings added" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore settings added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -713,14 +711,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="221">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/code/examples/multithreading/CallableExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="833">
@@ -969,56 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/JavaLearning/code/examples/java8/NewKeyWordDefault.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/JavaLearning/code/examples/java8/SimpleImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/JavaLearning/code/examples/java8/InterfaceWithDefaultMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/JavaLearning/code/examples/autoboxing/IntegerWTF.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/JavaLearning/code/examples/collection/LinkedListVsArrayList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1818#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6151261" vertical-offset="553" max-vertical-offset="18122">
@@ -1080,14 +1020,6 @@
             <element signature="e#358#359#0" expanded="true" />
             <element signature="e#414#415#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
