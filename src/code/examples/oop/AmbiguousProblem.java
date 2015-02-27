@@ -6,7 +6,7 @@ package code.examples.oop;
 public class AmbiguousProblem {
     public static void main(String[] args) {
         // System.out.println(ABImpl.text); - we can't do this
-        System.out.println(((A) new ABImpl()).text);
+        System.out.println(((Parent) new ABImpl()).text);
         System.out.println(((B) new ABImpl()).text);
     }
 }
@@ -19,4 +19,4 @@ interface B {
     String text = "b";
 }
 
-class ABImpl implements A, B {}
+class ABImpl implements Parent, B {}

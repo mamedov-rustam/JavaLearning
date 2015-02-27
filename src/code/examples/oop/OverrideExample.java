@@ -1,37 +1,37 @@
-package test;
+package code.examples.oop;
 
 /**
  * Created by Rustam on 27.02.2015.
  */
-public class Test {
+public class OverrideExample {
     public static void main(String[] args) {
-        Class1 a  = new Class3();
+        Parent a = new Child();
         a.print();
     }
 }
 
-class Class1{
+class Parent {
     public String str = "Parent string";
 
-    public void print(){
+    public void print() {
         System.out.println(str);
     }
 }
 
-class Class2 extends Class1{
+class Layer extends Parent {
     private String str = "Layer string";
 }
 
-class Class3 extends Class2{
+class Child extends Layer {
     public String str = "Child string";
 
-    Class3(){
-        System.out.println(((Class1)this).str);
+    Child() {
+        System.out.println(((Parent) this).str);
         System.out.println(str);
     }
 
     @Override
-    public void print(){
+    public void print() {
         System.out.println(str);
     }
 }
