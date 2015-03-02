@@ -8,7 +8,7 @@ package code.examples.oop.initialisation;
 //        оригинальное поле продолжает существовать. При обращении к объекту
 //        любого из этих классов по ссылке типа A, обращение происходит к полю 'str' класса A.
 //        А при обращении по ссылке B1 или B2 - к перекрывающему полю.
-public class ParentFieldExample {
+public class ParentFieldExample1 {
 
     static class A {
         public String str;

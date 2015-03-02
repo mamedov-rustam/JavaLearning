@@ -3,7 +3,7 @@ package code.examples.oop.initialisation;
 /**
  * Created by Rustam on 01.03.2015.
  */
-public class PatentWithField {
+public class ParentFieldExample2 {
     int x = 2;
 
     public int getX() {
@@ -11,12 +11,12 @@ public class PatentWithField {
     }
 
     public static void main(String[] args) {
-        PatentWithField c = new SubClass();
+        ParentFieldExample2 c = new SubClass();
         System.out.println(c.x + " " + c.getX());
     }
 }
 
-class SubClass extends PatentWithField {
+class SubClass extends ParentFieldExample2 {
     int x = 1;
 
     public int getX() {
