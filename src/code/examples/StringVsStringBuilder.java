@@ -1,4 +1,4 @@
-package code.examples.autoboxing;
+package code.examples;
 
 /**
  * Created by Rustam on 27.02.2015.

@@ -1,7 +1,5 @@
 package code.examples.java8.xml;
 
-import java.util.ArrayList;
-
 /**
  * Created by Rustam on 28.02.2015.
  */
