@@ -37,7 +37,7 @@ public class SetFeature {
         }
     }
     public static void main(String[] args) {
-        //Try uncomment comments and start it again.
+        //Try uncomment comments above and start it again.
         Set<Inner> set = new HashSet<>();
         System.out.println(set.add(new Inner("A")));
         System.out.println(set.add(new Inner("A")));
